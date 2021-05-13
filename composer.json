@@ -1,0 +1,24 @@
+{
+    "name": "jomenaalves/paypal",
+    "description": "Classe com php puro para integração com o PayPal",
+    "authors": [
+        {
+            "name": "José Carlos Omena Alves",
+            "email": "jomenaalves@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Source\\" : "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "league/omnipay": "3.1",
+        "omnipay/paypal": "3.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
